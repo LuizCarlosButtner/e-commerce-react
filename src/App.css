@@ -1,0 +1,495 @@
+/* Estilos gerais */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  margin: auto;
+  padding: 20px;
+  max-width: 1600px;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+header>div {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Estilos do menu-principal */
+nav {
+  background-color: #f2f2f2;
+  padding: 0 100px;
+  margin: 0;
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+}
+
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav>ul>li>h2>a {
+  color: #000;
+
+}
+
+
+/* Estilos do ProductInfo */
+.product-info {
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1vw;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  /* border: 1px solid red; */
+  width: 80vw;
+  max-width: 1600px;
+}
+
+.ul-tamanho,
+a {
+  list-style: none;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.ul-tamanho {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+  padding: 0;
+
+}
+
+.ul-tamanho>li {
+  border: 1px solid #000;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+
+
+.product-info-details {
+  flex: 2;
+  padding: 0 20px;
+}
+
+.div-imgCanto {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  /* max-width: 150px; */
+}
+
+
+.product-info-image img {
+  width: 700px;
+}
+
+.product-info-details h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product-info-details p {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  /* border: 1px solid red; */
+  max-width: 600px;
+  min-width: 300;
+}
+
+.product-info-details button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 190px;
+}
+
+.midleLine {
+  text-decoration: line-through;
+}
+
+.fs {
+  color: #228b22;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.material-symbols-outlined {
+  color: #ff8902;
+}
+
+/* Estilos do UserComments */
+.user-comments {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.user-comments h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.user-comments ul li {
+  margin-bottom: 10px;
+}
+
+/* Estilos do ProductQuestions */
+.product-questions {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product-questions h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-questions ul li {
+  margin-bottom: 10px;
+}
+
+/* Estilos do RelatedProducts */
+
+
+.related-products {
+  background-color: #c2c2c280;
+}
+
+.related-products ul li {
+  margin-bottom: 10px;
+}
+
+/* Estilos do Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* jequiti */
+.image-popup {
+  position: fixed;
+
+}
+
+.image-popup img {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Estilo do NOTA */
+
+.componenteNota {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: auto;
+}
+
+.componenteNota h2 {
+  font-size: 1.5rem;
+}
+
+.componenteNota h3 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.componenteNota .content {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 50px;
+}
+
+.componenteNota .left {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+.componenteNota .left,
+.componenteNota .right {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.componenteNota .stars {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.componenteNota .star {
+  color: gold;
+}
+
+.componenteNota .rank-stars {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.componenteNota .star-range-static {
+  width: 100px;
+  height: 10px;
+  background-color: #4CAF50;
+  margin-right: 5px;
+}
+
+.container-flex {
+  display: flex;
+}
+
+/* comentario */
+.component {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.tabs button.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.comments {
+  margin-bottom: 20px;
+}
+
+.comment {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comment .rating {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.comment .text {
+  margin-bottom: 5px;
+}
+
+.comment .time {
+  font-style: italic;
+  color: #888;
+}
+
+.ver-opinioes {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+/* perguntas */
+.perguntas-container {
+  padding: 20px;
+}
+
+.perguntas-title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.perguntas-list {
+  list-style: none;
+  padding: 0;
+}
+
+.pergunta-item {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.pergunta-usuario {
+  font-weight: bold;
+}
+
+.pergunta-data {
+  color: #888;
+  font-size: 12px;
+}
+
+.pergunta-duvida {
+  margin-top: 5px;
+}
+
+.pergunta-resposta {
+  margin-top: 5px;
+  color: #555;
+}
+
+/* mini-card */
+.related-products-miniCard {
+  padding: 0 20px;
+  margin: 20px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #d1d1d15b;
+}
+
+.product-card:hover {
+  scale: 1.2;
+}
+
+.product-image {
+  width: 150px;
+}
+
+/* vendedor informaçoes */
+.seller-info {
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  margin: 20px 0;
+}
+
+.seller-info h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.seller-info p {
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.seller-info p:first-child {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.seller-info p:last-child {
+  margin-bottom: 0;
+}
+
+.corBranca {
+  color: #555;
+}
+
+/* @media (min-width:700px) {
+  .product-info{
+    grid-template-columns: 1fr 3fr;
+  }
+} */
+
+@media (min-width:900px) {
+  .div-imgCanto {
+    display: flex;
+    max-width: 150px;
+  }
+
+  .product-info {
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas:
+      "image"
+      "details"
+      "button";
+  }
+}
+
+@media (min-width:1450px) {
+  .product-info {
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-areas:
+      "image"
+      "details"
+      "button";
+  }
+}

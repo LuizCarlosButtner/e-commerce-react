@@ -1,0 +1,26 @@
+{
+    "title": "Título",
+    "rating": "5.0",
+    "starCount": [
+        {
+            "stars": "5 estrelas",
+            "defaultValue": "5"
+        },
+        {
+            "stars": "4 estrelas",
+            "defaultValue": "4"
+        },
+        {
+            "stars": "3 estrelas",
+            "defaultValue": "2"
+        },
+        {
+            "stars": "2 estrelas",
+            "defaultValue": "2"
+        },
+        {
+            "stars": "1 estrelas",
+            "defaultValue": "2"
+        }
+    ]
+}

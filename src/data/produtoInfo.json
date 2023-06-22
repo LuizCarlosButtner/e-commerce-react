@@ -1,0 +1,11 @@
+{
+    "loja": "Loja SóRoupaFalsa",
+    "titulo": "Camiseta Básica",
+    "precoAntigo": "27,20",
+    "precoNovo": "20,95",
+    "parcelas": "3x de R$ 6,98 sem juros",
+    "precoBoleto": "R$19,90",
+    "descricao": "Apresentamos a camiseta perfeita para o seu guarda-roupa versátil. Com uma paleta de cores selecionada, este básico é adequado para qualquer ocasião. Produzida com excelência no Brasil, incorpora o renomado padrão de qualidade da marca Reserva. Adquira a sua camiseta Reserva hoje e desfrute do conforto e da elegância.",
+    "img1": "https://images.tcdn.com.br/img/img_prod/1191248/kit_3_camisetas_basicas_pretas_masculinas_100_algodao_premium_malha_30_1_penteada_73_2_2305526d0db0efb2bce9e8c3ab9d8bc1.jpg",
+    "img": ["https://images.tcdn.com.br/img/img_prod/1191248/kit_3_camisetas_basicas_pretas_masculinas_100_algodao_premium_malha_30_1_penteada_73_2_2305526d0db0efb2bce9e8c3ab9d8bc1.jpg","https://images.tcdn.com.br/img/img_prod/1191248/kit_3_camisetas_basicas_pretas_masculinas_100_algodao_premium_malha_30_1_penteada_73_3_35730bc959587bccea549bcbced8006c.jpg","https://images.tcdn.com.br/img/img_prod/1191248/kit_3_camisetas_basicas_pretas_masculinas_100_algodao_premium_malha_30_1_penteada_73_2_2305526d0db0efb2bce9e8c3ab9d8bc1.jpg","https://images.tcdn.com.br/img/img_prod/1191248/kit_3_camisetas_basicas_pretas_masculinas_100_algodao_premium_malha_30_1_penteada_73_1_64bea272f5cb6533995e6283efb0c841.jpg"]
+  }

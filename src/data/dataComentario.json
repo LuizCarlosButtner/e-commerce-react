@@ -1,0 +1,37 @@
+{
+    "todos": [
+      {
+        "text": "Qual é o tamanho dessa camiseta?",
+        "time": "Postado há 2 horas"
+      },
+      {
+        "text": "Essa camiseta é feita de algodão?",
+        "time": "Postado há 1 dia"
+      },
+      {
+        "text": "A cor dessa camiseta desbota após lavagens?",
+        "time": "Postado há 1 semana"
+      }
+    ],
+    "positivas": [
+      {
+        "text": "Essa camiseta tem um ótimo caimento!",
+        "time": "Postado há 3 dias"
+      },
+      {
+        "text": "A qualidade do tecido dessa camiseta é excelente!",
+        "time": "Postado há 1 semana"
+      }
+    ],
+    "negativas": [
+      {
+        "text": "O tamanho dessa camiseta é menor do que o esperado.",
+        "time": "Postado há 2 semanas"
+      },
+      {
+        "text": "A costura dessa camiseta está mal feita.",
+        "time": "Postado há 3 semanas"
+      }
+    ]
+  }
+  

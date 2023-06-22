@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "usuario": "Fulano",
+      "dataPublicacao": "2023-06-20",
+      "duvida": "Qual é o tamanho dessa camiseta?",
+      "resposta": "O tamanho dessa camiseta varia de P a GG."
+    },
+    {
+      "id": 2,
+      "usuario": "Beltrano",
+      "dataPublicacao": "2023-06-18",
+      "duvida": "Essa blusa possui mangas longas?",
+      "resposta": "Sim, essa blusa possui mangas longas."
+    },
+    {
+      "id": 3,
+      "usuario": "Cicrano",
+      "dataPublicacao": "2023-06-15",
+      "duvida": "Essa regata é feita de algodão?",
+      "resposta": "Sim, essa regata é feita de algodão."
+    },
+    {
+      "id": 4,
+      "usuario": "Extrano",
+      "dataPublicacao": "2023-06-12",
+      "duvida": "Qual é a cor disponível para essa blusa?",
+      "resposta": "Essa blusa está disponível nas cores preta, branca e cinza."
+    }
+  ]
+  
